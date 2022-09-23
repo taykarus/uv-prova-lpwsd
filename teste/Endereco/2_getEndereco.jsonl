@@ -1,0 +1,29 @@
+// [GET] localhost:8080/endereco
+{}
+
+// [Status: 200 OK]
+[
+  {
+    "id": 1,
+    "cep": "11222333",
+    "tipoLogradouro": "rua",
+    "logradouro": "José Alves Pimenta",
+    "numero": 1,
+    "bairro": "ABC",
+    "cidade": "São Paulo",
+    "estado": "São Paulo",
+    "pais": "Brasil",
+    "pessoa": {
+      "id": 1,
+      "nome": "Alison Israel",
+      "email": "taykarus@gmail.com",
+      "dataNascimento": "2001-08-24T00:00:00.000+00:00",
+      "sexo": "masculino",
+      "cpf": "11122233344",
+      "rg": "112223334",
+      "tipoSanguineo": "O+",
+      "pai": "Sandro",
+      "mae": "Flavia"
+    }
+  }
+]

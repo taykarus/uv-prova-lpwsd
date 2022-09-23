@@ -1,0 +1,20 @@
+// [PUT] localhost:8080/pessoa/2
+{
+    "nome": "Rayssa Ferreira",
+    "email": "rayssa.ferreira@gmail.com",
+    "tipoSanguineo": "AB+",
+}
+
+// [Status: 200 OK] Result
+{
+    "id": 2,
+    "nome": "Rayssa Ferreira",
+    "email": "rayssa.ferreira@gmail.com",
+    "dataNascimento": "2010-08-10T00:00:00.000+00:00",
+    "sexo": "feminino",
+    "cpf": "11122233345",
+    "rg": "112223335",
+    "tipoSanguineo": "AB+",
+    "pai": "Sandro",
+    "mae": "Flavia"
+}

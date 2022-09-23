@@ -1,0 +1,38 @@
+// [POST] localhost:8080/endereco
+{
+  "cep": "44552333",
+  "tipoLogradouro": "avenida",
+  "logradouro": "Carlos Alves Pimenta",
+  "numero": 1,
+  "bairro": "ABC",
+  "cidade": "Rio de Janeiro",
+  "estado": "Rio de Janeiro",
+  "pais": "Brasil",
+  "pessoa": {
+    "id": 2
+  }
+}
+
+// [Status: 200 OK]
+{
+  "id": 2,
+  "cep": "44552333",
+  "tipoLogradouro": "avenida",
+  "logradouro": "Carlos Alves Pimenta",
+  "numero": 1,
+  "bairro": "ABC",
+  "cidade": "Rio de Janeiro",
+  "estado": "Rio de Janeiro",
+  "pais": "Brasil",
+  "pessoa": {
+    "id": 1,
+    "nome": null,
+    "email": null,
+    "sexo": null,
+    "cpf": null,
+    "rg": null,
+    "tipoSanguineo": null,
+    "pai": null,
+    "mae": null
+  }
+}

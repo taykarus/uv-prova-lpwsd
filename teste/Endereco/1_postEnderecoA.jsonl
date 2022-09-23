@@ -1,0 +1,38 @@
+// [POST] localhost:8080/endereco
+{
+    "cep": "11222333",
+    "tipoLogradouro": "rua",
+    "logradouro": "José Alves Pimenta",
+    "numero": 1,
+    "bairro": "ABC",
+    "cidade": "São Paulo",
+    "estado": "São Paulo",
+    "pais": "Brasil",
+    "pessoa": {
+        "id": 1
+    }
+}
+
+// [Status: 200 OK] Result
+{
+    "id": 1,
+    "cep": "11222333",
+    "tipoLogradouro": "rua",
+    "logradouro": "José Alves Pimenta",
+    "numero": 1,
+    "bairro": "ABC",
+    "cidade": "São Paulo",
+    "estado": "São Paulo",
+    "pais": "Brasil",
+    "pessoa": {
+        "id": 1,
+        "nome": null,
+        "email": null,
+        "sexo": null,
+        "cpf": null,
+        "rg": null,
+        "tipoSanguineo": null,
+        "pai": null,
+        "mae": null
+    }
+}

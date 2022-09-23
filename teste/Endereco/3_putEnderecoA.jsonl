@@ -1,0 +1,31 @@
+// [PUT] localhost:8080/endereco/1
+{
+  "tipoLogradouro": "avenida",
+  "logradouro": "José Alves Almeida",
+  "numero": 200
+}
+
+// [Status: 200 OK] Result
+{
+  "id": 1,
+  "cep": "11222333",
+  "tipoLogradouro": "avenida",
+  "logradouro": "José Alves Almeida",
+  "numero": 200,
+  "bairro": "ABC",
+  "cidade": "São Paulo",
+  "estado": "São Paulo",
+  "pais": "Brasil",
+  "pessoa": {
+    "id": 1,
+    "nome": "Alison Israel",
+    "email": "taykarus@gmail.com",
+    "dataNascimento": "2001-08-24T00:00:00.000+00:00",
+    "sexo": "masculino",
+    "cpf": "11122233344",
+    "rg": "112223334",
+    "tipoSanguineo": "O+",
+    "pai": "Sandro",
+    "mae": "Flavia"
+  }
+}

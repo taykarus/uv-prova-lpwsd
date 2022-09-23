@@ -1,0 +1,27 @@
+// [POST] localhost:8080/telefone
+{
+  "celular": "11333445566",
+  "fixo": "1124561234",
+  "pessoa": {
+    "id": 1
+  }
+}
+
+// [Status: 200 OK] Result
+{
+  "id": 2,
+  "celular": "11333445566",
+  "fixo": "1124561234",
+  "pessoa": {
+    "id": 1,
+    "nome": null,
+    "email": null,
+    "dataNascimento": null,
+    "sexo": null,
+    "cpf": null,
+    "rg": null,
+    "tipoSanguineo": null,
+    "pai": null,
+    "mae": null
+  }
+}

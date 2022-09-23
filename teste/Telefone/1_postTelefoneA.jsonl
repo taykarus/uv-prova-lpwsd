@@ -1,0 +1,26 @@
+// [POST] localhost:8080/endereco
+{
+  "celular": "24999010203",
+  "fixo": "2424561234",
+  "pessoa": {
+    "id": 1
+  }
+}
+
+// [Status: 200 OK] Result
+{
+  "id": 1,
+  "celular": "24999010203",
+  "fixo": "2424561234",
+  "pessoa": {
+    "id": 1,
+    "nome": null,
+    "email": null,
+    "sexo": null,
+    "cpf": null,
+    "rg": null,
+    "tipoSanguineo": null,
+    "pai": null,
+    "mae": null
+  }
+}

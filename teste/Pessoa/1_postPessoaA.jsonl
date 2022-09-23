@@ -1,0 +1,26 @@
+// [POST] localhost:8080/pessoa
+{
+    "nome": "Alison Israel",
+    "email": "taykarus@gmail.com",
+    "dataNascimento": "2001-08-24",
+    "sexo": "masculino",
+    "cpf": "11122233344",
+    "rg": "112223334",
+    "tipoSanguineo": "O+",
+    "pai": "Sandro",
+    "mae": "Flavia"
+}
+
+// [Status: 200 OK] Result
+{
+    "id": 1,
+    "nome": "Alison Israel",
+    "email": "taykarus@gmail.com",
+    "dataNascimento": "2001-08-24T00:00:00.000+00:00",
+    "sexo": "masculino",
+    "cpf": "11122233344",
+    "rg": "112223334",
+    "tipoSanguineo": "O+",
+    "pai": "Sandro",
+    "mae": "Flavia"
+}
